@@ -1,0 +1,55 @@
+body
+{
+  background-color: rgb(229, 232, 235);
+  background-image: url("../img/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+h1{
+  text-align:center;
+  font-size: 50px;
+}
+#myProfImg
+{
+  border-radius:20px;
+  opacity: 0.9;
+  
+  
+}
+hr
+{
+  border: 3px solid rgba(50, 53, 70, 0.795);
+  border-radius: 5px;
+}
+#div1
+{
+ width: 25%; 
+ float: left;
+}
+#div2
+{
+  font-size: 50px;
+  color:rgb(151, 40, 0);
+
+}
+p
+{
+font-size: 25px;
+color: rgb(179, 0, 0);
+}
+
+li
+{
+  font-size: 25px;
+  color: rgb(10, 32, 29);
+  display:block;
+}
+#exp
+{
+  font-size: 30px;
+  text-underline-offset:initial;
+}
+ol{
+  list-style-type: square;
+}
