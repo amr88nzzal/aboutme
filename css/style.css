@@ -22,7 +22,7 @@ hr
 }
 #div1
 {
- width: 30%; 
+ width: 32%; 
  float: left;
 }
 #div2
@@ -39,9 +39,10 @@ color: rgb(179, 0, 0);
 
 li
 {
+  list-style-type: decimal;
   font-size: 25px;
   color: rgb(10, 32, 29);
-  display:block;
+  
 }
 #exp
 {
@@ -49,9 +50,10 @@ li
   text-underline-offset:initial;
 }
 ol{
-  list-style-type: square;
+
 }
 #dText
 {
   position: relative;
+  
 }
