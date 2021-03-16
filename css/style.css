@@ -3,8 +3,8 @@ body
   background-color: rgb(229, 232, 235);
   background-image: url("../img/1.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  
+  background-size:cover;
+   
 }
 h1{
   text-align:center;
@@ -39,7 +39,7 @@ color: rgb(179, 0, 0);
 
 li
 {
-  list-style-type: decimal;
+
   font-size: 25px;
   color: rgb(10, 32, 29);
   
@@ -49,11 +49,29 @@ li
   font-size: 30px;
   text-underline-offset:initial;
 }
-ol{
 
-}
 #dText
 {
   position: relative;
   
 }
+
+#breakBr
+{
+  height:70px;
+}
+.top10
+{
+  text-align: center;
+  color: rgb(8, 18, 102);
+  font-size: 25px ;
+  border: 3px  solid;
+}
+.float-container {
+  
+  border: 5px solid rgb(179, 15, 15);
+  padding: 10px;
+  margin: auto 10% auto 35%;
+}
+hr:nth-child(6)
+{margin-bottom: 50px;}
