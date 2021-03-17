@@ -13,3 +13,9 @@
 
 * I add l list to my page bottom.
 * I did some css for styling what I added in the page.
+## 17/03/2021
+
+* I added a functions to JS code.
+* I wase the driver for Mohamad Aqel at [link](https://github.com/MohammadAqel/lab02/pull/1)
+* I wase the navigator for Mohamad Aqel at [link](https://github.com/amr88nzzal/aboutme/pull/1)
+ 
