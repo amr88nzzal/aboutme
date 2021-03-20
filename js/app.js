@@ -4,7 +4,7 @@ let Age = document.getElementById('myAge');
 let home = document.getElementById('myhome');
 let useName = prompt('Please enter your name!');
 alert('Hello '+useName +'\n Its nice to see you in my page\n \n lets see if you know me!!!');
-function Q1(){
+function q1(){
   let myName = prompt('My name is Ammar \n Yes/Y Or No/N?');
   console.log(userResult);
   if(myName.toLowerCase() === 'yes'||myName.toLowerCase() === 'y')
@@ -24,7 +24,7 @@ function Q1(){
   }
 
 }
-function Q2(){
+function q2(){
   let myAge = prompt('My age is greater than 27 years\n Yes/Y Or No/N?');
   console.log(userResult);
   if(myAge.toLowerCase() === 'yes'||myAge.toLowerCase() === 'y')
@@ -45,7 +45,7 @@ function Q2(){
     alert ('wrong input!!!');
   }
 }
-function Q3(){
+function q3(){
   let myHome = prompt('Iam from Syria \n Yes/Y Or No/N?');
   if(myHome.toLowerCase() === 'yes'||myHome.toLowerCase() === 'y')
   {
@@ -61,7 +61,7 @@ function Q3(){
     home.textContent = ('I am from  Syria and your answer was wrong !!');
   }
 }
-function Q4(){
+function q4(){
   let myStudy = prompt('Did I study physics?? \n Yes/Y Or No/N?');
   switch(myStudy.toLowerCase())
   {
@@ -82,7 +82,7 @@ function Q4(){
     break;
   }
 }
-function Q5(){
+function q5(){
   let carColor = prompt('My car\'s color is Red \n Yes/Y Or No/N?');
   switch(carColor.toLowerCase())
   {
@@ -104,7 +104,7 @@ function Q5(){
   }
 }
 /*********************************lab 03**************************************/
-function Q6(){
+function q6(){
   let randNum = Math.floor(Math.random() * 100) + 1;
   let gNum = prompt('lets play a game \nI picked a random number between(0-100) and you should guess it\nYou have just 4 attempts\nI will help you\n'+(randNum+1));
   let gResult =0;
@@ -137,7 +137,7 @@ function Q6(){
   }
 }
 /* ***************************************************/
-function Q7(){
+function q7(){
   let progLang = ['python','javascript','java','c#','c','c++','go','flutter','php','dart'];
   let gProgLang=prompt('Could you give me a name of one of top 10 programing languages??\nYou have 6 attempt ');
   let gAns=0;
@@ -170,10 +170,10 @@ function Q7(){
 
   alert('Your correct answers are :\n'+userResult +' out of 7!!');
 }
-Q1();
-Q2();
-Q3();
-Q4();
-Q5();
-Q6();
-Q7();
+q1();
+q2();
+q3();
+q4();
+q5();
+q6();
+q7();
