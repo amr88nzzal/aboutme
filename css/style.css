@@ -8,28 +8,35 @@ body
 }
 h1{
   text-align:center;
-  font-size: 50px;
+  font-size: 70px;
+  position: relative;
+  font-family: 'Sacramento', cursive,Arial, Helvetica, sans-serif;
+  color:rgb(138, 11, 6);
+  
 }
-#myProfImg
+#mainCont
 {
-  border-radius:20px;
-  opacity: 0.9;
+position:static;
 }
+
 hr
 {
   border: 3px solid rgba(50, 53, 70, 0.795);
   border-radius: 5px;
 }
-#div1
+#myProfImg
 {
- width: 32%; 
+ width: 25%; 
+ height: 200%;
  float: left;
+ border-radius:25px;
+ margin-right: 40px;
+ opacity: 0.9;
 }
 #div2
 {
   font-size: 50px;
   color:rgb(151, 40, 0);
-
 }
 p
 {
@@ -39,10 +46,8 @@ color: rgb(179, 0, 0);
 
 li
 {
-
-  font-size: 25px;
-  color: rgb(10, 32, 29);
-  
+ font-size: 25px;
+ color: rgb(14, 58, 52);  
 }
 #exp
 {
